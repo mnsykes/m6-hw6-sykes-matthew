@@ -1,0 +1,174 @@
+/* Global styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	width: 100vw;
+	/* https://www.magicpattern.design/tools/css-backgrounds */
+	background-color: #cacaca;
+	opacity: 0.9;
+	background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #cacaca 4px),
+		repeating-linear-gradient(#9d9d9d55, #9d9d9d);
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+header,
+h1,
+h2,
+footer {
+	font-family: "Permanent Marker", cursive;
+}
+
+p {
+	font-family: "Gothic A1", sans-serif;
+}
+
+header,
+nav,
+footer {
+	font-size: 24px;
+	text-align: center;
+}
+
+img {
+	/* https://html-css-js.com/css/generator/box-shadow/ */
+	-webkit-box-shadow: 6px 6px 4px -3px rgba(0, 0, 0, 0.29);
+	box-shadow: 6px 6px 4px -3px rgba(0, 0, 0, 0.29);
+}
+/* End Global styles */
+
+/* Header styles */
+header {
+	height: 50px;
+	width: 100vw;
+	border-bottom: 2px solid #fd7560;
+}
+
+.top-nav {
+	display: flex;
+	height: 100%;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.nav-link:nth-child(-n + 3) {
+	margin-right: 10px;
+}
+
+.nav-link {
+	padding: 13px 0;
+}
+
+.nav-link a:hover {
+	color: #fd7560;
+}
+
+.home-link {
+	margin-right: auto;
+	height: 100%;
+	background: #fd7560;
+	padding: 13px;
+}
+
+.home-link:hover {
+	color: #fd7560;
+	background: #fdd541;
+}
+
+.nav-link,
+.nav-link a,
+.home-link,
+.top-nav span {
+	color: #fdd541;
+}
+/* End Header styles */
+
+/* Main styles */
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+#about-section,
+#social-aside,
+header {
+	background: whitesmoke;
+}
+
+.about-article,
+.social-aside-nav {
+	margin-top: 20px;
+}
+/* End Main styles */
+
+/* About styles */
+#about-section {
+	height: 100%;
+	max-width: 65%;
+	padding: 0 15px 15px 15px;
+}
+
+#about-section h1 {
+	font-size: 48px;
+}
+
+.about-article img {
+	float: left;
+	height: 300px;
+	max-width: 300px;
+	margin-right: 20px;
+}
+
+.about-article p {
+	padding-bottom: 12px;
+}
+/* End About styles */
+
+/* Social styles */
+#social-aside {
+	max-width: 35%;
+	padding: 35.5px 15px 15px 15px;
+	height: 200px;
+}
+
+.social-aside-nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.social-aside-link img:hover {
+	transform: scale(1.1);
+}
+
+.social-aside-link img {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+}
+/* End Social styles */
+
+/* Start Footer styles */
+footer {
+	height: 50px;
+	width: 100vw;
+	background: #fd7560;
+	border-top: 5px solid #fdd541;
+	text-align: center;
+	color: #fdd541;
+}
+/* End Footer styles */
