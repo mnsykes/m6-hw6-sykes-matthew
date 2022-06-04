@@ -52,7 +52,7 @@ img {
 header {
 	height: 50px;
 	width: 100vw;
-	border-bottom: 2px solid #fd7560;
+	border-bottom: 5px solid #223344;
 }
 
 .top-nav {
@@ -70,27 +70,29 @@ header {
 	padding: 13px 0;
 }
 
-.nav-link a:hover {
-	color: #fd7560;
-}
-
 .home-link {
 	margin-right: auto;
 	height: 100%;
-	background: #fd7560;
+	color: #fd7560;
+	background: #223344;
 	padding: 13px;
 }
 
 .home-link:hover {
-	color: #fd7560;
-	background: #fdd541;
+	color: #223344;
+	background: #fd7560;
 }
 
 .nav-link,
 .nav-link a,
-.home-link,
-.top-nav span {
-	color: #fdd541;
+.top-nav span,
+h1,
+h2 {
+	color: #223344;
+}
+
+.nav-link a:hover {
+	color: #fd7560;
 }
 /* End Header styles */
 
@@ -166,9 +168,9 @@ header {
 footer {
 	height: 50px;
 	width: 100vw;
-	background: #fd7560;
-	border-top: 5px solid #fdd541;
+	background: #223344;
+	border-top: 5px solid #fd7560;
 	text-align: center;
-	color: #fdd541;
+	color: #fd7560;
 }
 /* End Footer styles */
